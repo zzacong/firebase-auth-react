@@ -14,14 +14,8 @@
     }
   },
   "lint-staged": {
-    "*.+(js|jsx)": [
-      "./node_modules/.bin/eslint --fix",
-      "git add"
-    ],
-    "*.+(json|css|md)": [
-      "./node_modules/.bin/prettier --write",
-      "git add"
-    ]
+    "*.+(js|jsx)": "./node_modules/.bin/eslint --fix",
+    "*.+(json|css|md)": "./node_modules/.bin/prettier --write"
   },
   "browserslist": {
     "production": [
