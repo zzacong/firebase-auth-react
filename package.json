@@ -1,5 +1,5 @@
 {
-  "name": "firebase-react-auth",
+  "name": "firebase-auth-react",
   "version": "0.1.0",
   "private": true,
   "scripts": {
