@@ -8,12 +8,12 @@ import { Container } from 'react-bootstrap'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { AuthProvider } from './contexts/AuthContext'
 
-import Dashboard from './Dashboard'
-import Signup from './Signup'
-import Login from './Login'
-import ForgotPassword from './ForgotPassword'
-import PrivateRoute from './PrivateRoute'
-import UpdateProfile from './UpdateProfile'
+import Dashboard from './components/Dashboard'
+import Signup from './components/Signup'
+import Login from './components/Login'
+import ForgotPassword from './components/ForgotPassword'
+import PrivateRoute from './components/PrivateRoute'
+import UpdateProfile from './components/UpdateProfile'
 
 function App() {
   return (
